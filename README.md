@@ -19,9 +19,9 @@
   - 敘述統計：
 
     - 看**不同時間點**台大校內及周邊 Youbike 2.0 的騎行特徵
-    - 怎麼劃分時間點？
+    - (05/30 進度) https://studio.foursquare.com/public/5041dc36-77a7-42ab-9c09-50eb86f7ea67
 
-  - 迴歸分析
+  - 迴歸分析 (05/31 TBD)
 
     - Dependent Variable
 
@@ -38,16 +38,14 @@
       - 與（最鄰近）體育館的距離 -> 打球
       - 與（最鄰近）圖書館的距離 -> 唸書
 
-- **檔案架構：** (Updated 05/30 00:51 by Benson Chiu)
+- **檔案架構：** (Updated 05/30 22:09 by Benson Chiu)
 
   ```
   .
   ├── README.md        # Introduction to this project
-  ├── final_data
-  	  ├── ntu_station_data.csv  # Youbike 2.0 records in our selected range      
-      ├── ntu_station_locations.csv  # Locations for each station in selected range     
-      └── ntu_station_distances.csv  # Distance for each station pair in selected range
+  ├── final_data.zip   # Datasets used in this project
   ├── data_cleaning.ipynb # Python code for data preprocessing
+  ├── data_merging.ipynb # Python code for OD Analysis
   └── ntu_station_info.txt # The basic information of our selected stations
   
   ```
